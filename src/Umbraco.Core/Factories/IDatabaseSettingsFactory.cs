@@ -1,4 +1,5 @@
-﻿using Umbraco.Cms.Core.Models.Installer;
+using System.Collections.Generic;
+using Umbraco.Cms.Core.Models.Installer;
 
 namespace Umbraco.Cms.Core.Factories;
 

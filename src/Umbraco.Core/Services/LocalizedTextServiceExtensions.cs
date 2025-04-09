@@ -1,6 +1,7 @@
 // Copyright (c) Umbraco.
 // See LICENSE for more details.
 
+using System.Collections.Generic;
 using System.Globalization;
 using Umbraco.Cms.Core.Dictionary;
 using Umbraco.Cms.Core.Services;

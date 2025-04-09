@@ -1,4 +1,5 @@
-﻿using System.Collections;
+using System;
+using System.Collections;
 using System.Collections.Concurrent;
 using System.Text.RegularExpressions;
 using Umbraco.Extensions;

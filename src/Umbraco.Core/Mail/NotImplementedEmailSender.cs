@@ -1,4 +1,5 @@
 using Umbraco.Cms.Core.Models.Email;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.Mail;
 

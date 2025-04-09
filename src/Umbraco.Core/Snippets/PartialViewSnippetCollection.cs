@@ -1,4 +1,6 @@
 using Umbraco.Cms.Core.Composing;
+using System;
+using System.Collections.Generic;
 
 namespace Umbraco.Cms.Core.Snippets;
 

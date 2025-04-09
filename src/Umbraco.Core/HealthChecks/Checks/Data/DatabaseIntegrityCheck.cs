@@ -2,6 +2,7 @@
 // See LICENSE for more details.
 
 using System.Text;
+using System.Threading.Tasks;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Services;
 

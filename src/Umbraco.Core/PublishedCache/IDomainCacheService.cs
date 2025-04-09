@@ -1,4 +1,5 @@
-﻿using Umbraco.Cms.Core.Cache;
+using System.Collections.Generic;
+using Umbraco.Cms.Core.Cache;
 using Umbraco.Cms.Core.Routing;
 
 namespace Umbraco.Cms.Core.PublishedCache;

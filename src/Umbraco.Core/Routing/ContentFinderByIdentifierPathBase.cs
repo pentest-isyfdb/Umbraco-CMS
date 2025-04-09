@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Logging;
+using System.Threading.Tasks;
 using Umbraco.Cms.Core.Web;
 
 namespace Umbraco.Cms.Core.Routing;

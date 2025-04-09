@@ -1,6 +1,8 @@
 namespace Umbraco.Cms.Core.Events;
 
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 /// <summary>
 ///     Represents event data, for events that support cancellation, and expose impacted objects.

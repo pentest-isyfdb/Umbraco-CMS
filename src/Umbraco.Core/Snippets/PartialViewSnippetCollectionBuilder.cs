@@ -53,5 +53,8 @@ public partial class PartialViewSnippetCollectionBuilder : LazyCollectionBuilder
     }
 
     [GeneratedRegex("^@inherits\\s+?.*$", RegexOptions.Multiline)]
-    private static partial Regex HeaderRegex();
+    private static partial Regex HeaderRegex()
+    {
+        return new Regex("^@inherits\\s+?.*$", RegexOptions.Multiline);
+    }
 }

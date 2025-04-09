@@ -1,3 +1,5 @@
+using System;
+
 namespace Umbraco.Cms.Core.Logging.Viewer;
 
 public interface ILogEntry

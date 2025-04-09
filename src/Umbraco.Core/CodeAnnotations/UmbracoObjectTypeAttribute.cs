@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core.CodeAnnotations;
 
+using System;
+
 /// <summary>
 ///     Attribute to associate a GUID string and Type with an UmbracoObjectType Enum value
 /// </summary>

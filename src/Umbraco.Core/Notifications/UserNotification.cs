@@ -1,3 +1,5 @@
+using System;
+
 namespace Umbraco.Cms.Core.Notifications;
 
 public abstract class UserNotification : INotification

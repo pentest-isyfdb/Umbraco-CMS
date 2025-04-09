@@ -2,6 +2,7 @@ using System.Text;
 using System.Collections.Generic;
 using Microsoft.Extensions.Logging;
 using Umbraco.Extensions;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.HealthChecks;
 

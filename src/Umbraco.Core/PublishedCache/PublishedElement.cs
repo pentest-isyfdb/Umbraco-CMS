@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using Umbraco.Cms.Core.Models.PublishedContent;
 using Umbraco.Cms.Core.PropertyEditors;
 
@@ -61,7 +62,7 @@ public class PublishedElement : IPublishedElement
 
     public Guid Key { get; }
 
-    private static Dictionary<string, object?> GetCaseInsensitiveValueDictionary(Dictionary<string, object?> values)
+    private static System.Collections.Generic.Dictionary<string, object?> GetCaseInsensitiveValueDictionary(System.Collections.Generic.Dictionary<string, object?> values)
     {
         // ensure we ignore case for property aliases
         IEqualityComparer<string> comparer = values.Comparer;

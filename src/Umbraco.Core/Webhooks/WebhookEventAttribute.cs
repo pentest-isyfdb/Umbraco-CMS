@@ -1,4 +1,6 @@
-﻿namespace Umbraco.Cms.Core.Webhooks;
+using System;
+
+namespace Umbraco.Cms.Core.Webhooks;
 
 [AttributeUsage(AttributeTargets.Class)]
 public class WebhookEventAttribute : Attribute

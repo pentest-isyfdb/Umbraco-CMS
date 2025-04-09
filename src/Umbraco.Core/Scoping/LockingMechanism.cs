@@ -152,7 +152,7 @@ public class LockingMechanism : ILockingMechanism
     /// <param name="lockId">Lock identifier.</param>
     private void LockInner(
         Guid instanceId,
-        ref Dictionary<Guid, Dictionary<int, int>> locks,
+        ref System.Collections.Generic.Dictionary<Guid, System.Collections.Generic.Dictionary<int, int>> locks,
         ref HashSet<int>? locksSet,
         Action<int, TimeSpan?> obtainLock,
         TimeSpan? timeout,

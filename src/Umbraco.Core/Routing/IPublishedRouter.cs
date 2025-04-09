@@ -1,5 +1,6 @@
 using Umbraco.Cms.Core.Models.PublishedContent;
 using System;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.Routing;
 

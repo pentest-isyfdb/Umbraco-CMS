@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core.Mail;
 
+using System.Threading.Tasks;
+
 /// <summary>
 ///     Service to send an SMS
 /// </summary>

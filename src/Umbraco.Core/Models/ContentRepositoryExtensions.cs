@@ -1,5 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Collections.Generic;
 using Umbraco.Cms.Core.DependencyInjection;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.PropertyEditors;

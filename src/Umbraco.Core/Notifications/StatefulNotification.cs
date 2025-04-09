@@ -1,5 +1,7 @@
 // Copyright (c) Umbraco.
 
+using System.Collections.Generic;
+
 namespace Umbraco.Cms.Core.Notifications;
 
 public abstract class StatefulNotification : IStatefulNotification

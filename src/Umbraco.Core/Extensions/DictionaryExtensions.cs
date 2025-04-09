@@ -3,6 +3,7 @@
 
 using System.Collections;
 using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Net;
 using System.Text;
@@ -25,6 +26,7 @@ public static class DictionaryExtensions
     /// <param name="key"></param>
     /// <returns></returns>
     public static TVal GetOrCreate<TKey, TVal>(this IDictionary<TKey, TVal> dict, TKey key)
+        where TKey : notnull
         where TVal : class, new()
     {
         if (dict.ContainsKey(key) == false)

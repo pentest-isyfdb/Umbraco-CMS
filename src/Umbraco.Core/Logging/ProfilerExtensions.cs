@@ -1,3 +1,5 @@
+using System;
+
 namespace Umbraco.Cms.Core.Logging;
 
 internal static class ProfilerExtensions

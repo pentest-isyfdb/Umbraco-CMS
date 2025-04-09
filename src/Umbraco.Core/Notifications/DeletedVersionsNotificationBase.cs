@@ -1,6 +1,7 @@
 // Copyright (c) Umbraco.
 // See LICENSE for more details.
 
+using System;
 using Umbraco.Cms.Core.Events;
 
 namespace Umbraco.Cms.Core.Notifications;

@@ -1,5 +1,6 @@
 using System;
 using System.Text.RegularExpressions;
+using System.Text.RegularExpressions;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Umbraco.Cms.Core.Composing;
@@ -53,6 +54,5 @@ public partial class PartialViewSnippetCollectionBuilder : LazyCollectionBuilder
         return $"{partialViewHeader}{Environment.NewLine}{newContent}";
     }
 
-    [GeneratedRegex("^@inherits\\s+?.*$", RegexOptions.Multiline)]
-    private static partial Regex HeaderRegex();
+    private static Regex HeaderRegex() => new Regex("^@inherits\\s+?.*$", RegexOptions.Multiline);
 }

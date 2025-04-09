@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core.Composing;
 
+using System.Collections.Generic;
+
 /// <summary>
 /// Represents a builder collection, ie an immutable enumeration of items.
 /// </summary>

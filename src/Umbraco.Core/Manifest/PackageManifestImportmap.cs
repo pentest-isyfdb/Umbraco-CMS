@@ -1,4 +1,5 @@
-﻿using System.Runtime.Serialization;
+using System.Runtime.Serialization;
+using System.Collections.Generic;
 
 namespace Umbraco.Cms.Core.Manifest;
 

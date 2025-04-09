@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core.Mail;
 
+using System.Threading.Tasks;
+
 /// <summary>
 ///     An <see cref="ISmsSender" /> that throws <see cref="NotImplementedException" />
 /// </summary>

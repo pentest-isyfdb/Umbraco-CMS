@@ -44,7 +44,7 @@ public class DictionaryAppCache : IRequestCache
     public bool Remove(string key) => _items.TryRemove(key, out _);
 
     /// <inheritdoc />
-    public virtual IEnumerable<object?> SearchByKey(string keyStartsWith)
+    public virtual IEnumerable SearchByKey(string keyStartsWith)
     {
         var items = new List<object?>();
         foreach ((string key, object? value) in _items)

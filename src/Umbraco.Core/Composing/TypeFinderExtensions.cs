@@ -1,4 +1,5 @@
 using System.Reflection;
+using System.Collections.Generic;
 using Umbraco.Cms.Core.Composing;
 
 namespace Umbraco.Extensions;

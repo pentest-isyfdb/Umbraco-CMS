@@ -1,5 +1,6 @@
 using Umbraco.Cms.Core.Events;
 using Umbraco.Cms.Core.Models.Membership;
+using System.Collections.Generic;
 
 namespace Umbraco.Cms.Core.Notifications;
 

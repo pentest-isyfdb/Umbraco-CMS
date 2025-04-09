@@ -1,4 +1,6 @@
-﻿namespace Umbraco.Cms.Core.Routing;
+using System;
+
+namespace Umbraco.Cms.Core.Routing;
 
 public class UmbracoRequestPathsOptions
 {

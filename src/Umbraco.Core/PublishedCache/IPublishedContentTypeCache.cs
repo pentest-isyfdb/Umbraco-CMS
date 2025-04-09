@@ -1,4 +1,5 @@
-﻿using Umbraco.Cms.Core.Models.PublishedContent;
+using Umbraco.Cms.Core.Models.PublishedContent;
+using System.Collections.Generic;
 
 namespace Umbraco.Cms.Core.PublishedCache;
 

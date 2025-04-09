@@ -7,6 +7,8 @@ using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Core.Hosting;
 using Umbraco.Cms.Tests.Integration.TestServerTest;
 using Umbraco.Cms.Web.Common.ApplicationBuilder;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.NewBackoffice;
 

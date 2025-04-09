@@ -19,6 +19,8 @@ using Umbraco.Cms.Tests.Common.Builders.Extensions;
 using Umbraco.Cms.Tests.Common.Extensions;
 using Umbraco.Cms.Tests.Common.TestHelpers.Stubs;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Models;
 

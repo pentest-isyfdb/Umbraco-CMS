@@ -16,6 +16,8 @@ using Umbraco.Cms.Core.Routing;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Web.Common.ModelBinders;
 using Umbraco.Cms.Web.Common.Routing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.ModelBinders;
 

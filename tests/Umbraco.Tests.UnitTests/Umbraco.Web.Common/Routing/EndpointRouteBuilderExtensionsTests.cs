@@ -8,6 +8,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
 using static Umbraco.Cms.Core.Constants.Web.Routing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.Routing;
 

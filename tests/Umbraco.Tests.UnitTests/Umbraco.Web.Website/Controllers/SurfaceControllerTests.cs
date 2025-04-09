@@ -21,6 +21,8 @@ using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.UnitTests.TestHelpers.Objects;
 using Umbraco.Cms.Web.Common.Routing;
 using Umbraco.Cms.Web.Website.Controllers;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Website.Controllers;
 

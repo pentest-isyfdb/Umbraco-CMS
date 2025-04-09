@@ -16,6 +16,8 @@ using Umbraco.Cms.Infrastructure.Serialization;
 using Umbraco.Cms.Infrastructure.Sync;
 using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Infrastructure.Scoping;
 

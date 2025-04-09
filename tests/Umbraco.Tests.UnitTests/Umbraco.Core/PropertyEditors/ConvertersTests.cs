@@ -19,6 +19,8 @@ using Umbraco.Cms.Infrastructure.Serialization;
 using Umbraco.Cms.Tests.Common.Published;
 using Umbraco.Cms.Tests.UnitTests.TestHelpers;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.PropertyEditors;
 

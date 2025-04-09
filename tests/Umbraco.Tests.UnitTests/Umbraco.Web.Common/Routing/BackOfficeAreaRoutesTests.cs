@@ -17,6 +17,8 @@ using Umbraco.Cms.Web.Common.Attributes;
 using Umbraco.Cms.Web.Common.Controllers;
 using Umbraco.Extensions;
 using static Umbraco.Cms.Core.Constants.Web.Routing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.Routing;
 

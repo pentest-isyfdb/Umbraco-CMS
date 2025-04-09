@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
 using NUnit.Framework;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.BackOffice;
 

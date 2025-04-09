@@ -9,6 +9,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Infrastructure.Migrations;
 using Umbraco.Cms.Tests.Common.TestHelpers;
 using Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.Migrations.Stubs;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.Migrations;
 

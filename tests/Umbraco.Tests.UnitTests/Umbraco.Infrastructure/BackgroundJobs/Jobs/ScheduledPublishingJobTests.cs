@@ -16,6 +16,8 @@ using Umbraco.Cms.Core.Web;
 using Umbraco.Cms.Infrastructure;
 using Umbraco.Cms.Infrastructure.BackgroundJobs.Jobs;
 using Umbraco.Cms.Infrastructure.HostedServices;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.BackgroundJobs.Jobs;
 

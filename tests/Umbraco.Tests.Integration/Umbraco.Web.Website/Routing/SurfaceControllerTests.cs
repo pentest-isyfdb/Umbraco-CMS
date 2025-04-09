@@ -1,4 +1,4 @@
-﻿using System.Net;
+using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -14,6 +14,8 @@ using Umbraco.Cms.Tests.Integration.TestServerTest;
 using Umbraco.Cms.Web.Common.Attributes;
 using Umbraco.Cms.Web.Website.Controllers;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Web.Website.Routing;
 

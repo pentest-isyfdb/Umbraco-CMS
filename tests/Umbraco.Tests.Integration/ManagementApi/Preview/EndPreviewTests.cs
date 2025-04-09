@@ -1,8 +1,10 @@
-﻿using System.Linq.Expressions;
+using System.Linq.Expressions;
 using System.Net;
 using NUnit.Framework;
 using Umbraco.Cms.Api.Management.Controllers.Preview;
 using Umbraco.Cms.Core;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.ManagementApi.Preview;
 

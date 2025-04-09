@@ -13,6 +13,8 @@ using Umbraco.Cms.Infrastructure.Persistence;
 using Umbraco.Cms.Infrastructure.Scoping;
 using IScope = Umbraco.Cms.Infrastructure.Scoping.IScope;
 using IScopeProvider = Umbraco.Cms.Infrastructure.Scoping.IScopeProvider;
+using NUnit.Framework.Legacy;
+
 #if DEBUG_SCOPES
 using System.Collections.Generic;
 #endif

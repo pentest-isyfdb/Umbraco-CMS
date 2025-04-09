@@ -3,6 +3,8 @@
 
 using NUnit.Framework;
 using Umbraco.Cms.Infrastructure.Persistence.Repositories.Implement;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Infrastructure.Persistence.Repositories;
 

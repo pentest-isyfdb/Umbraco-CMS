@@ -16,6 +16,8 @@ using Umbraco.Cms.Tests.Integration.Testing;
 using Umbraco.Extensions;
 using Constants = Umbraco.Cms.Core.Constants;
 using IScope = Umbraco.Cms.Infrastructure.Scoping.IScope;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Infrastructure.Services
 {

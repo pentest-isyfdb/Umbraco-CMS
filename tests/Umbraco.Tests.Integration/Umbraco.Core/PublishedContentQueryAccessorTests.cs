@@ -5,6 +5,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Tests.Common.Attributes;
 using Umbraco.Cms.Tests.Integration.TestServerTest;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Core;
 

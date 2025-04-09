@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.Http;
 using Moq;
 using NUnit.Framework;
 using Umbraco.Cms.Api.Delivery.Services;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Cms.Api.Delivery.Services;
 

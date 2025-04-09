@@ -10,6 +10,8 @@ using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Tests.Common.Attributes;
 using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 // ReSharper disable CommentTypo
 // ReSharper disable StringLiteralTypo

@@ -13,6 +13,8 @@ using Umbraco.Cms.Infrastructure.Examine;
 using Umbraco.Cms.Tests.Common.Attributes;
 using Umbraco.Cms.Tests.Common.Testing;
 using Directory = Lucene.Net.Store.Directory;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Examine.Lucene.UmbracoExamine;
 

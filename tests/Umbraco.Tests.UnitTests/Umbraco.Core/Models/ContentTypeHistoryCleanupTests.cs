@@ -2,6 +2,8 @@ using System.Linq;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Models.ContentEditing;
 using Umbraco.Cms.Tests.Common.Builders;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Models;
 

@@ -6,6 +6,8 @@ using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Core.Routing;
 using Umbraco.Cms.Tests.Common.Testing;
 using IHostingEnvironment = Umbraco.Cms.Core.Hosting.IHostingEnvironment;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Routing;
 

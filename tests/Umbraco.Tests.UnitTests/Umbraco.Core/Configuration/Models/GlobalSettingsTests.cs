@@ -8,6 +8,8 @@ using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Tests.UnitTests.AutoFixture;
 using Umbraco.Cms.Web.Common.AspNetCore;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Configuration.Models;
 

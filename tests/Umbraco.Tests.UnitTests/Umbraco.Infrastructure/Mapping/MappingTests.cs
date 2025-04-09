@@ -15,6 +15,8 @@ using Umbraco.Cms.Core.Models.ContentEditing;
 using Umbraco.Cms.Core.Scoping;
 using IScopeProvider = Umbraco.Cms.Infrastructure.Scoping.IScopeProvider;
 using PropertyCollection = Umbraco.Cms.Core.Models.PropertyCollection;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.Mapping;
 

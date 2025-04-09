@@ -7,6 +7,8 @@ using Umbraco.Cms.Core.DistributedLocking;
 using Umbraco.Cms.Persistence.Sqlite.Services;
 using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Infrastructure.Persistence;
 

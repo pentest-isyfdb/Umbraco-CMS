@@ -1,4 +1,4 @@
-﻿using System.Data;
+using System.Data;
 using Moq;
 using NUnit.Framework;
 using Umbraco.Cms.Core;
@@ -9,6 +9,8 @@ using Umbraco.Cms.Core.Scoping;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Core.Services.Navigation;
 using Umbraco.Cms.Infrastructure.Persistence.Dtos;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Services;
 

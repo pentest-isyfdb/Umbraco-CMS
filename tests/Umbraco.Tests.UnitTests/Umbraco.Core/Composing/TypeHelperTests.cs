@@ -11,6 +11,8 @@ using System.Reflection;
 using Microsoft.Data.SqlClient;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Composing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Composing;
 

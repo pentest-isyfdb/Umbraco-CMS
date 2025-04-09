@@ -3,6 +3,8 @@
 
 using System.Xml;
 using NUnit.Framework;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.CoreXml;
 

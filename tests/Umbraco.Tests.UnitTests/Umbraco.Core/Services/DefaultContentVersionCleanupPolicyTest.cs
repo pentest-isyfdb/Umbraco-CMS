@@ -8,6 +8,8 @@ using Umbraco.Cms.Core.Persistence.Repositories;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Tests.UnitTests.AutoFixture;
 using ContentVersionCleanupPolicySettings = Umbraco.Cms.Core.Models.ContentVersionCleanupPolicySettings;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Tests.Services
 {

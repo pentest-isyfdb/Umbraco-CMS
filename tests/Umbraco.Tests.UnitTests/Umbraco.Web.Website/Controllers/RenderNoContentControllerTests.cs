@@ -12,6 +12,8 @@ using Umbraco.Cms.Tests.Common;
 using Umbraco.Cms.Web.Website.Controllers;
 using Umbraco.Cms.Web.Website.Models;
 using Constants = Umbraco.Cms.Core.Constants;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Website.Controllers;
 

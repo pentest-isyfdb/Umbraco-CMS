@@ -12,6 +12,8 @@ using Umbraco.Cms.Core.Cache;
 using Umbraco.Cms.Core.Composing;
 using Umbraco.Cms.Core.Logging;
 using Umbraco.Cms.Tests.UnitTests.TestHelpers;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Composing;
 

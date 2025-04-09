@@ -12,6 +12,8 @@ using Umbraco.Cms.Core.PropertyEditors;
 using Umbraco.Cms.Tests.Common.TestHelpers;
 using Umbraco.Extensions;
 using DateTimeOffset = System.DateTimeOffset;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.CoreThings;
 

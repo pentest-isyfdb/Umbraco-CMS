@@ -6,6 +6,8 @@ using Umbraco.Cms.Core.Packaging;
 using Umbraco.Cms.Core.Semver;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Core.Telemetry;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Telemetry;
 

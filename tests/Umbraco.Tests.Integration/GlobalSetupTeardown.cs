@@ -7,6 +7,8 @@ using Microsoft.Extensions.Configuration;
 using NUnit.Framework;
 using Umbraco.Cms.Tests.Integration.Implementations;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 // ReSharper disable once CheckNamespace
 

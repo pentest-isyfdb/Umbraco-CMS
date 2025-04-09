@@ -23,6 +23,8 @@ using Umbraco.Cms.Core.Security;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Infrastructure.Security;
 using Umbraco.Cms.Tests.Integration.TestServerTest;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.ManagementApi;
 

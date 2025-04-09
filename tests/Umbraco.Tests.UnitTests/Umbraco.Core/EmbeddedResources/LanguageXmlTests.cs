@@ -4,6 +4,8 @@ using System.Xml;
 using Microsoft.Extensions.FileProviders;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Composing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.EmbeddedResources;
 

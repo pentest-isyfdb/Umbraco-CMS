@@ -35,6 +35,8 @@ using Umbraco.Cms.Web.Common.AspNetCore;
 using Umbraco.Extensions;
 using File = System.IO.File;
 using IHostingEnvironment = Umbraco.Cms.Core.Hosting.IHostingEnvironment;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Implementations;
 

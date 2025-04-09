@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Primitives;
 using NUnit.Framework;
 using Umbraco.Cms.Web.Common.ModelBinders;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.ModelBinders;
 

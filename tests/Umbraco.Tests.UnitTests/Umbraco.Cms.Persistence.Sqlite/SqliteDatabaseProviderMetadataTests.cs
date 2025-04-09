@@ -1,6 +1,8 @@
 using NUnit.Framework;
 using Umbraco.Cms.Core.Install.Models;
 using Umbraco.Cms.Persistence.Sqlite.Services;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Cms.Persistence.Sqlite;
 

@@ -1,5 +1,7 @@
 using NUnit.Framework;
 using Umbraco.Cms.Core;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Core.Services;
 

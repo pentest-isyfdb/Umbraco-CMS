@@ -6,6 +6,8 @@ using Umbraco.Cms.Api.Management.Factories;
 using Umbraco.Cms.Core;
 using Umbraco.Cms.Infrastructure.Examine;
 using Umbraco.Cms.Infrastructure.Services;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Cms.Api.Management.Factories;
 

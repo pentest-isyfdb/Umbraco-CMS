@@ -10,6 +10,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Tests.Common;
 using Umbraco.Cms.Tests.Common.TestHelpers;
 using Umbraco.Cms.Tests.UnitTests.AutoFixture;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core;
 

@@ -17,6 +17,8 @@ using Umbraco.Cms.Infrastructure.Scoping;
 using Umbraco.Cms.Infrastructure.Serialization;
 using Umbraco.Extensions;
 using static Umbraco.Cms.Core.Models.Property;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.PropertyEditors;
 

@@ -8,6 +8,8 @@ using System.Reflection;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 using Umbraco.Cms.Core.Exceptions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Common.Testing;
 

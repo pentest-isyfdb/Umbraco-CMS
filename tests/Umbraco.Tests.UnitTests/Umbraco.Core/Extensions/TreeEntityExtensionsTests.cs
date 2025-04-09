@@ -1,8 +1,10 @@
-﻿using Moq;
+using Moq;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Extensions;
 using Umbraco.Cms.Core.Models.Entities;
 using Range = System.Range;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Extensions;
 

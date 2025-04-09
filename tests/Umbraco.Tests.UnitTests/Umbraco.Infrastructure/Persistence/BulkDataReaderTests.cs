@@ -7,6 +7,8 @@ using System.Data;
 using System.Data.Common;
 using NUnit.Framework;
 using Umbraco.Cms.Persistence.SqlServer.Services;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.Persistence;
 

@@ -9,6 +9,8 @@ using Moq;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Composing;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Composing;
 

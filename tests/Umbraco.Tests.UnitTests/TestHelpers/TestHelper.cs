@@ -45,6 +45,8 @@ using Umbraco.Extensions;
 using File = System.IO.File;
 using IHostingEnvironment = Umbraco.Cms.Core.Hosting.IHostingEnvironment;
 using IScopeProvider = Umbraco.Cms.Infrastructure.Scoping.IScopeProvider;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.TestHelpers;
 

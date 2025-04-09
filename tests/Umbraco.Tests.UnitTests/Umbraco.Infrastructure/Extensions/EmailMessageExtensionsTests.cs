@@ -8,6 +8,8 @@ using System.Text;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Models.Email;
 using Umbraco.Cms.Infrastructure.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.Extensions;
 

@@ -4,6 +4,8 @@
 using System.Globalization;
 using NUnit.Framework;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.CoreThings;
 

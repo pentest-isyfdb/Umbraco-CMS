@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using NUnit.Framework;
 using Umbraco.Cms.Infrastructure.ModelsBuilder;
 using Umbraco.Cms.Infrastructure.ModelsBuilder.Building;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.ModelsBuilder.Embedded;
 

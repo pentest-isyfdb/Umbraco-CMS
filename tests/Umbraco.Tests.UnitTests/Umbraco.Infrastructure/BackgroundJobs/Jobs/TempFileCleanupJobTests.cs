@@ -9,6 +9,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Core.IO;
 using Umbraco.Cms.Core.Runtime;
 using Umbraco.Cms.Infrastructure.BackgroundJobs.Jobs;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.BackgroundJobs.Jobs
 {

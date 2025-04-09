@@ -5,6 +5,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Core.Strings;
 using Umbraco.Cms.Tests.UnitTests.AutoFixture;
 using Umbraco.Cms.Web.Common.AspNetCore;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Website;
 

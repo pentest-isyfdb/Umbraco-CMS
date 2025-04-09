@@ -11,6 +11,8 @@ using Umbraco.Cms.Core.Runtime;
 using Umbraco.Cms.Infrastructure.Runtime;
 using Umbraco.Cms.Tests.Common.Attributes;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Infrastructure.Runtime;
 

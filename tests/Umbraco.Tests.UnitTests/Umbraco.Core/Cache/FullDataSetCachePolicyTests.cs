@@ -12,6 +12,8 @@ using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Core.Scoping;
 using Umbraco.Cms.Infrastructure.Scoping;
 using IScope = Umbraco.Cms.Infrastructure.Scoping.IScope;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Cache;
 

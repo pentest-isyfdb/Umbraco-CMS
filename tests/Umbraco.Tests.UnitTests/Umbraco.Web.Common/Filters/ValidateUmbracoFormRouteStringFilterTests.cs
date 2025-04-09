@@ -6,6 +6,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Web.Common.Exceptions;
 using Umbraco.Cms.Web.Common.Filters;
 using Umbraco.Cms.Web.Common.Security;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.Filters;
 

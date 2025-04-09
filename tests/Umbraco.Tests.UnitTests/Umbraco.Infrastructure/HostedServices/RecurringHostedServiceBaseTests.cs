@@ -6,6 +6,8 @@ using Moq;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Configuration;
 using Umbraco.Cms.Infrastructure.HostedServices;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.HostedServices;
 

@@ -14,6 +14,8 @@ using Umbraco.Cms.Infrastructure.Persistence.Mappers;
 using Umbraco.Cms.Persistence.SqlServer.Services;
 using Umbraco.Extensions;
 using MapperCollection = NPoco.MapperCollection;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.TestHelpers;
 

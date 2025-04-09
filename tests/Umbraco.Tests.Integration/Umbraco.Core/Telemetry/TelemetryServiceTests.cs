@@ -8,6 +8,8 @@ using Umbraco.Cms.Core.Telemetry;
 using Umbraco.Cms.Core.Webhooks;
 using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Core.Telemetry;
 

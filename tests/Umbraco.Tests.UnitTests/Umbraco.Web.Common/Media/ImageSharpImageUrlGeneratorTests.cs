@@ -11,6 +11,8 @@ using SixLabors.ImageSharp.Web.Middleware;
 using SixLabors.ImageSharp.Web.Processors;
 using Umbraco.Cms.Core.Models;
 using Umbraco.Cms.Imaging.ImageSharp.Media;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.Media;
 

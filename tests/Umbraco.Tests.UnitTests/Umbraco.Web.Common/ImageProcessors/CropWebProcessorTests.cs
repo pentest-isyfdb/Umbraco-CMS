@@ -12,6 +12,8 @@ using SixLabors.ImageSharp.Web.Commands;
 using SixLabors.ImageSharp.Web.Commands.Converters;
 using SixLabors.ImageSharp.Web.Middleware;
 using Umbraco.Cms.Imaging.ImageSharp.ImageProcessors;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.ImageProcessors;
 

@@ -5,6 +5,8 @@ using System.Text;
 using Microsoft.AspNetCore.Http;
 using NUnit.Framework;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.Extensions;
 

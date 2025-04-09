@@ -1,6 +1,8 @@
-﻿using System.Text.Json.Nodes;
+using System.Text.Json.Nodes;
 using NUnit.Framework;
 using Umbraco.Cms.Infrastructure.Serialization;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Infrastructure.Serialization;
 

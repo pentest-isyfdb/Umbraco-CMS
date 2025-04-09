@@ -5,6 +5,8 @@ using Microsoft.AspNetCore.Http;
 using Moq;
 using NUnit.Framework;
 using Umbraco.Cms.Core.Cache;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Cache;
 

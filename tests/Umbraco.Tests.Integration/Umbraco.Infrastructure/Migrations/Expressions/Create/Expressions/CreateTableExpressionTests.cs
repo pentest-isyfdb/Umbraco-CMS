@@ -6,6 +6,8 @@ using Umbraco.Cms.Infrastructure.Migrations.Expressions.Create;
 using Umbraco.Cms.Infrastructure.Persistence;
 using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.Integration.Testing;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Infrastructure.Migrations.Expressions.Create.Expressions
 {

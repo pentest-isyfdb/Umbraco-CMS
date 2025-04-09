@@ -24,6 +24,8 @@ using Umbraco.Cms.Tests.Common.Extensions;
 using Umbraco.Cms.Tests.Common.Testing;
 using Umbraco.Cms.Tests.Integration.Testing;
 using Language = Umbraco.Cms.Core.Models.Language;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.Integration.Umbraco.Core.Services;
 

@@ -3,6 +3,8 @@
 
 using NUnit.Framework;
 using Umbraco.Cms.Web.Common.Mvc;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Web.Common.Mvc;
 

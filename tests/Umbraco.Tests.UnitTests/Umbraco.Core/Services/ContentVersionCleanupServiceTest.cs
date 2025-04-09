@@ -10,6 +10,8 @@ using Umbraco.Cms.Core.Notifications;
 using Umbraco.Cms.Core.Persistence.Repositories;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Cms.Tests.UnitTests.AutoFixture;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Tests.Services;
 

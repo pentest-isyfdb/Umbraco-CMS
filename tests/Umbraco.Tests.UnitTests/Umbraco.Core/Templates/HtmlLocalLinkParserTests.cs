@@ -13,6 +13,8 @@ using Umbraco.Cms.Core.Services.Navigation;
 using Umbraco.Cms.Core.Templates;
 using Umbraco.Cms.Tests.Common;
 using Umbraco.Cms.Tests.UnitTests.TestHelpers.Objects;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Templates;
 

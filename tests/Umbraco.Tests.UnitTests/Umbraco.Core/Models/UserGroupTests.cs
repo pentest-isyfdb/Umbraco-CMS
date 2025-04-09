@@ -8,6 +8,8 @@ using Umbraco.Cms.Core.Models.Membership;
 using Umbraco.Cms.Tests.Common.Builders;
 using Umbraco.Cms.Tests.Common.Builders.Extensions;
 using Umbraco.Cms.Tests.UnitTests.Umbraco.Core.ShortStringHelper;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Models;
 

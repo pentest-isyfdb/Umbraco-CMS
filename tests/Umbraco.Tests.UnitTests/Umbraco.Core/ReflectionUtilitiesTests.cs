@@ -8,6 +8,8 @@ using System.Text.Json.Serialization;
 using NUnit.Framework;
 using Umbraco.Cms.Core;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core;
 

@@ -17,6 +17,8 @@ using Umbraco.Cms.Core.PropertyEditors;
 using Umbraco.Cms.Tests.UnitTests.TestHelpers;
 using Umbraco.Cms.Web.Common.UmbracoContext;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Composing;
 

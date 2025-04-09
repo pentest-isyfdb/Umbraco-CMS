@@ -11,6 +11,8 @@ using Umbraco.Cms.Core.Sync;
 using Umbraco.Cms.Infrastructure.BackgroundJobs.Jobs;
 using Umbraco.Cms.Infrastructure.HostedServices;
 using Umbraco.Cms.Tests.UnitTests.AutoFixture;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Tests.Scheduling;
 

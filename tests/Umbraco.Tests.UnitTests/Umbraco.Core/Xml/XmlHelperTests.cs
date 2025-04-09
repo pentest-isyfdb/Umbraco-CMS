@@ -8,6 +8,8 @@ using NUnit.Framework;
 using Umbraco.Cms.Core.Xml;
 using Umbraco.Cms.Tests.Common.Builders;
 using Umbraco.Extensions;
+using NUnit.Framework.Legacy;
+
 
 namespace Umbraco.Cms.Tests.UnitTests.Umbraco.Core.Xml;
 

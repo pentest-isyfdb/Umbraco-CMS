@@ -1,4 +1,6 @@
-﻿namespace Umbraco.Cms.Core.Manifest;
+using System.Threading.Tasks;
+
+namespace Umbraco.Cms.Core.Manifest;
 
 public interface IPackageManifestService
 {

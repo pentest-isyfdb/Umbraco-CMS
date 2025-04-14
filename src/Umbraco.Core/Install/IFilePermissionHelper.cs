@@ -12,5 +12,5 @@ public interface IFilePermissionHelper
     ///     Run all tests for permissions of the required files and folders.
     /// </summary>
     /// <returns>True if all permissions are correct. False otherwise.</returns>
-    bool RunFilePermissionTestSuite(out Dictionary<FilePermissionTest, IEnumerable<string>> report);
+    bool RunFilePermissionTestSuite(out System.Collections.Generic.Dictionary<FilePermissionTest, System.Collections.Generic.IEnumerable<string>> report);
 }

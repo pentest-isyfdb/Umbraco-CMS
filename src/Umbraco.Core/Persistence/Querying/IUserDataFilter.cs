@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Umbraco.Cms.Infrastructure.Persistence.Querying;
 
 public interface IUserDataFilter

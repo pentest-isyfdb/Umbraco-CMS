@@ -2,6 +2,7 @@
 // See LICENSE for more details.
 
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Umbraco.Extensions;
 

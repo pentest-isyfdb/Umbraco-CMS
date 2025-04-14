@@ -1,5 +1,6 @@
 using System.Drawing;
 using System.Collections.Generic;
+using System.IO;
 
 namespace Umbraco.Cms.Core.Media;
 

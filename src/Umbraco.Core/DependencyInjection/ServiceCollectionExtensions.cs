@@ -1,5 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
+using System;
 using Umbraco.Cms.Core.Composing;
 
 namespace Umbraco.Extensions;

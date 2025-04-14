@@ -1,5 +1,6 @@
 using System.Xml;
 using System.Collections.Generic;
+using System.Threading;
 using Umbraco.Cms.Core.Serialization;
 
 namespace Umbraco.Cms.Core.Media.EmbedProviders;

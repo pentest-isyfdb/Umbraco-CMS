@@ -3,6 +3,7 @@ using System.Text;
 using System.Xml;
 using System.Collections.Generic;
 using System.Threading;
+using System.Threading.Tasks;
 using Umbraco.Cms.Core.Serialization;
 
 namespace Umbraco.Cms.Core.Media.EmbedProviders;

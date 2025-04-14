@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Umbraco.Cms.Core.Media;
 
 public interface IEmbedProvider

@@ -1,4 +1,5 @@
 using System.Drawing;
+using System.IO;
 using Microsoft.Extensions.Logging;
 using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Core.IO;

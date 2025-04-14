@@ -2,6 +2,7 @@
 // See LICENSE for more details.
 
 using System.Data;
+using System.Linq;
 using Microsoft.Extensions.DependencyInjection;
 using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Core.DependencyInjection;

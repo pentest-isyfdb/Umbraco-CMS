@@ -1,5 +1,6 @@
 using System.Xml.Linq;
 using Umbraco.Extensions;
+using System.Collections.Generic;
 
 namespace Umbraco.Cms.Core.Packaging;
 

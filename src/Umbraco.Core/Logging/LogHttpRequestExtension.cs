@@ -1,4 +1,5 @@
 using Umbraco.Cms.Core.Cache;
+using System;
 
 namespace Umbraco.Extensions;
 

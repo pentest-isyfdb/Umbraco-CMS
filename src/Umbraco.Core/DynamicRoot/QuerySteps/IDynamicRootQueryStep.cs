@@ -1,4 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using Umbraco.Cms.Core;
 
 namespace Umbraco.Cms.Core.DynamicRoot.QuerySteps;
 

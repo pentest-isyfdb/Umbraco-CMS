@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core.Configuration;
 
+using System.Threading.Tasks;
+
 public interface IConfigManipulator
 {
     [Obsolete("Use RemoveConnectionStringAsync instead, scheduled for removal in V16.")]

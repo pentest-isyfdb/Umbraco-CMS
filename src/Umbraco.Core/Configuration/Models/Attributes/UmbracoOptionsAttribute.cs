@@ -1,3 +1,5 @@
+using System;
+
 namespace Umbraco.Cms.Core.Configuration.Models;
 
 [AttributeUsage(AttributeTargets.Class)]

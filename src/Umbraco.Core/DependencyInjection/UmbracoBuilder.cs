@@ -52,7 +52,7 @@ namespace Umbraco.Cms.Core.DependencyInjection
 {
     public class UmbracoBuilder : IUmbracoBuilder
     {
-        private readonly Dictionary<Type, ICollectionBuilder> _builders = new Dictionary<Type, ICollectionBuilder>();
+        private readonly System.Collections.Generic.Dictionary<Type, ICollectionBuilder> _builders = new System.Collections.Generic.Dictionary<Type, ICollectionBuilder>();
 
         public IServiceCollection Services { get; }
 

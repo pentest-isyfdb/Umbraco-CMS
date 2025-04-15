@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Umbraco.Cms.Core.Extensions;
 using Umbraco.Cms.Core.Scoping;
 using Umbraco.Extensions;

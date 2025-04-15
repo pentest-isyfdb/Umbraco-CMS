@@ -1,7 +1,8 @@
-﻿using Umbraco.Cms.Core.Install;
+using Umbraco.Cms.Core.Install;
 using Umbraco.Cms.Core.Services;
 using Umbraco.Extensions;
 using Umbraco.Cms.Core.Models.Installer;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.Installer.Steps;
 

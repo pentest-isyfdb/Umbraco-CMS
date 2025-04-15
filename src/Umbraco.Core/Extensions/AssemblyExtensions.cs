@@ -2,6 +2,7 @@
 // See LICENSE for more details.
 
 using System.Diagnostics.CodeAnalysis;
+using System.IO;
 using System.Reflection;
 using Umbraco.Cms.Core.Semver;
 

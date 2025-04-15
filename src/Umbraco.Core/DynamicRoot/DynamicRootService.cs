@@ -1,6 +1,7 @@
 using Umbraco.Cms.Core.DynamicRoot.QuerySteps;
 using Umbraco.Cms.Core.DynamicRoot.Origin;
 using Umbraco.Extensions;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.DynamicRoot;
 
@@ -71,4 +72,3 @@ public class DynamicRootService : IDynamicRootService
         return null;
     }
 }
-

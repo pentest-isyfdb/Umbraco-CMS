@@ -2,7 +2,9 @@
 // See LICENSE for more details.
 
 using System;
+using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 
 namespace Umbraco.Extensions;
 

@@ -1,3 +1,5 @@
+using System.Threading.Tasks;
+
 namespace Umbraco.Cms.Core.Logging;
 
 internal static class LoggingTaskExtension

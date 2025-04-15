@@ -1,4 +1,5 @@
 using Microsoft.Extensions.Options;
+using System.Collections.Generic;
 
 using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Core.Events;

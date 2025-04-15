@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core;
 
+using System;
+
 /// <summary>
 ///     Abstract implementation of managed IDisposable.
 /// </summary>

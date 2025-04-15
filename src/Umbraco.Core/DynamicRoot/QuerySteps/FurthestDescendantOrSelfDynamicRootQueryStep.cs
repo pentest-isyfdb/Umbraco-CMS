@@ -1,6 +1,7 @@
 using Umbraco.Cms.Core.Scoping;
 using System.Collections.Generic;
 using System;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.DynamicRoot.QuerySteps;
 

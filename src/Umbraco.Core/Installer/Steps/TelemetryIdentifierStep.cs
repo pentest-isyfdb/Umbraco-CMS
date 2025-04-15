@@ -1,7 +1,9 @@
-﻿using Microsoft.Extensions.Options;
+using Microsoft.Extensions.Options;
+using System.Threading.Tasks;
 using Umbraco.Cms.Core.Configuration.Models;
 using Umbraco.Cms.Core.Telemetry;
 using Umbraco.Cms.Core.Models.Installer;
+using Umbraco.Cms.Core;
 
 namespace Umbraco.Cms.Core.Installer.Steps;
 

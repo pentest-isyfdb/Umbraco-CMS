@@ -1,6 +1,7 @@
 // Copyright (c) Umbraco.
 // See LICENSE for more details.
 
+using System.Collections.Generic;
 using Umbraco.Cms.Core.Configuration;
 
 namespace Umbraco.Extensions;

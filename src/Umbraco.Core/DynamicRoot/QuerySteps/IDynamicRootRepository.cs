@@ -1,3 +1,6 @@
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
 namespace Umbraco.Cms.Core.DynamicRoot.QuerySteps;
 
 public interface IDynamicRootRepository

@@ -1,5 +1,7 @@
 namespace Umbraco.Cms.Core.DynamicRoot.QuerySteps;
 
+using System.Collections.Generic;
+
 public class DynamicRootQueryStep
 {
     /// <summary>

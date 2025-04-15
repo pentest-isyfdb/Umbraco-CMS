@@ -16,7 +16,7 @@ public class YouTube : OEmbedProviderBase
 
     public override string[] UrlSchemeRegex => new[] { @"youtu.be/.*", @"youtube.com/watch.*", @"youtube.com/shorts/.*", @"youtube.com/live/.*" };
 
-    public override Dictionary<string, string> RequestParams => new()
+    public override Dictionary<string, string> RequestParams => new Dictionary<string, string>()
     {
         // ApiUrl/?format=json
         { "format", "json" },

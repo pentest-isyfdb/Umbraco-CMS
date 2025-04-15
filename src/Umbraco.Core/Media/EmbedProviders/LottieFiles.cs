@@ -1,4 +1,5 @@
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 using Umbraco.Cms.Core.Serialization;
 
 namespace Umbraco.Cms.Core.Media.EmbedProviders;
@@ -17,7 +18,7 @@ public class LottieFiles : OEmbedProviderBase
 
     public override string[] UrlSchemeRegex => new[] { @"lottiefiles\.com/*" };
 
-    public override Dictionary<string, string> RequestParams => new();
+    public override System.Collections.Generic.Dictionary<string, string> RequestParams => new();
 
     [Obsolete("Use GetMarkupAsync instead. This will be removed in Umbraco 15.")]
     public override string? GetMarkup(string url, int maxWidth = 0, int maxHeight = 0)

@@ -1,4 +1,5 @@
-﻿using Umbraco.Cms.Core.Models.Installer;
+using Umbraco.Cms.Core.Models.Installer;
+using System.Threading.Tasks;
 
 namespace Umbraco.Cms.Core.Installer;
 

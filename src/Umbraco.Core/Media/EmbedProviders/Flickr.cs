@@ -1,5 +1,6 @@
 using System.Net;
 using System.Xml;
+using System.Collections.Generic;
 using Umbraco.Cms.Core.Serialization;
 
 namespace Umbraco.Cms.Core.Media.EmbedProviders;
@@ -18,7 +19,7 @@ public class Flickr : OEmbedProviderBase
 
     public override string[] UrlSchemeRegex => new[] { @"flickr.com\/photos\/*", @"flic.kr\/p\/*" };
 
-    public override Dictionary<string, string> RequestParams => new();
+    public override Dictionary<string, string> RequestParams => new Dictionary<string, string>();
 
     [Obsolete("Use GetMarkupAsync instead. This will be removed in Umbraco 15.")]
     public override string? GetMarkup(string url, int maxWidth = 0, int maxHeight = 0)

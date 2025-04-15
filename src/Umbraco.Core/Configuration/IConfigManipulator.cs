@@ -1,5 +1,6 @@
 namespace Umbraco.Cms.Core.Configuration;
 
+using System;
 using System.Threading.Tasks;
 
 public interface IConfigManipulator

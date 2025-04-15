@@ -2,6 +2,7 @@ using Umbraco.Cms.Core.DynamicRoot.QuerySteps;
 using Umbraco.Cms.Core.DynamicRoot.Origin;
 using Umbraco.Extensions;
 using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Umbraco.Cms.Core.DynamicRoot;
 

